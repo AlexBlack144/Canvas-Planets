@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link   href="style.css" rel="stylesheet">
+   
+    <title>Document</title>
+</head>
+<body>
+   <div >-</div>
+    <canvas id="myCanvas" width="1000px" height="630px"></canvas>
+    <div id="container">
+        <select id="select_planet">
+            <option value="planets" selected>--Выбери планету--</option>
+            <option value="Меркурий">Меркурий</option>
+            <option value="Венера" >Венера</option>
+            <option value="Марс">Марс</option>
+            <option value="Юпитер">Юпитер</option>
+            <option value="Сатурн">Сатурн</option>
+            <option value="Уран">Уран</option>
+            <option value="Нептун">Нептун</option>
+            <option value="Плутон">Плутон</option>
+        </select>
+        <br><br>
+        <button id="pusk">Пуск!</button>
+        <br><br>
+    </div>
+  <label for="container2" id="label_for_container2"><h2>Упровление ракетой:</h2></label>
+    <div id="container2">
+        <div class="plus_minus_btns">
+            <button id="plus_speed">Добавить скорость</button>
+            <br>
+            <button id="minus_speed">Сбавить скорость</button>
+        </div>
+        <button id="prezemlenie">Приземлиться</button>
+        <br><br>
+        <div class="speed">
+            <div id="speed_raket">Скорость ракеты: 0 км/сек</div>
+            <div id="speed_planet">Скорость планеты: 0 км/сек</div>
+            <div id="toplivo">Топливо: 0 у/е</div>
+            <div id="days">Топливо хватит на 0 суток</div>
+        </div>
+        <br>
+        <div id="monitor">
+            <div class="labelo" id="labelw">Выберите планету на которую хотите отправиться и после нажмите пуск!</div>
+            <br>
+            <div class="labelo" id="labelw2">Чтобы начать занаво обновите страницу!</div>
+        </div>
+    </div>
+    <script src="animation.js"></script>
+    <script src="script2.js"></script>
+   
+</body>

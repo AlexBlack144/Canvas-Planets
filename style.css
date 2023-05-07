@@ -1,0 +1,62 @@
+body{
+  background-image: url("/img/kos.jpg");
+  font-family:Helvetica;
+}
+#container{
+  margin-top: 140px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+#myCanvas{
+  background-color: #2b2b2b;
+  background-image: url("/img/kos.jpg");
+  float: left;
+}
+.labelo{
+  color: white;
+}
+.speed{
+  color: white;
+}
+#minus_speed{
+  width: 146px;
+}
+#plus_speed{
+  width: 146px;
+}
+#prezemlenie{
+  height: 38px;
+}
+.plus_minus_btns{
+  float: left;
+}
+button {
+  border-radius: 5px;
+  color: black;
+  border: 1px solid #262431;
+  font-family:Helvetica;
+}
+button:hover {
+  background-color: #262431;
+  color: white;
+}
+#select_planet{
+  border: 2px solid #262431; 
+  border-radius: 5px;
+  
+}
+#label_for_container2{
+  color: rgb(180, 1, 1);
+}
+#monitor{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000055;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 100px;
+  background-color: black;
+}
